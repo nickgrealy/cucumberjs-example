@@ -1,0 +1,25 @@
+{
+  "name": "cucumberjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all": "node_modules/.bin/cucumber-js test/features/",
+    "test-runme": "node_modules/.bin/cucumber-js test/features/ --tags @runme",
+    "test-skip": "node_modules/.bin/cucumber-js test/features/ --tags ~@skip",
+    "test-skipandrunme": "node_modules/.bin/cucumber-js test/features/ --tags @runme,@skip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgrealy/cucumberjs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgrealy/cucumberjs-example/issues"
+  },
+  "homepage": "https://github.com/nickgrealy/cucumberjs-example#readme",
+  "devDependencies": {
+    "cucumber": "6.0.5"
+  }
+}
