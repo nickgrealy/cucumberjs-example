@@ -11,7 +11,7 @@ I worked out the tags syntax has been updated -> https://cucumber.io/docs/cucumb
 
 Here are the examples of how to use tags:
 
-```
+```sh
 npm install
 
 # expected 3 tests
